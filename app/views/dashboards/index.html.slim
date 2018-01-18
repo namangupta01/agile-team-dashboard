@@ -1,5 +1,5 @@
 .ui.stackable.column.grid
-  .two.column.row
+  .one.column.row
     .column
       - if File.exist?('public/burndown.png')
         .ui.stackable.column.grid
@@ -66,6 +66,7 @@
                       = user.birthday.strftime("%d-%m-%Y")
             .ui.bottom.attached.header
 
+  .one.column.row
     .column
       .eight.wide.column
         h3.ui.top.attached.header
